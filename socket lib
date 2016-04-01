@@ -1,0 +1,4 @@
+import socket
+mysocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+mysocket.connect((‘www.dfdf.com’,80))
+mysock.send(‘GET http://www.dfdf.com/codfda/romeo.txt HTTP/1.0\n\n’)
